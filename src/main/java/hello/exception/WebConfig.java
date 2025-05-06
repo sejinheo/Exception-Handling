@@ -25,7 +25,7 @@ public class WebConfig implements WebMvcConfigurer {
 
     }
 
-   // @Bean
+   //@Bean
     public FilterRegistrationBean logFilter(){
         FilterRegistrationBean<Filter> filterRegistrationBean = new FilterRegistrationBean<>();
         filterRegistrationBean.setFilter(new LogFilter());
